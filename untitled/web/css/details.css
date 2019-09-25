@@ -1,0 +1,134 @@
+
+
+/*!*首导航栏*!*/
+/*.d_one{*/
+/*width: 100%;*/
+/*height: 35px;*/
+/*margin-top: 0px;*/
+/*background-color: #363636;*/
+/*}*/
+/*.first_nav{*/
+/*!*margin-top:60px;*!*/
+/*margin-left:1200px;*/
+/*font-family: 宋体;*/
+/*font-size: 13px;*/
+/*padding-top: 8px;*/
+/*}*/
+/*.nav1{*/
+/*margin-left: 30px;*/
+/*font-family:"Microsoft YaHei UI";*/
+/*font-size: 18px;*/
+/*font-weight: normal;*/
+/*}*/
+/*.first_a,.nav1 a{*/
+/*color: #B5B5B5;*/
+/*margin-top: 60px;*/
+/*text-decoration: none;*/
+/*}*/
+/*.first_a:hover,.nav1 a:hover{*/
+/*color: white;*/
+/*}*/
+
+.d_le_up{
+    margin-top:50px;
+    margin-left: 80px;
+}
+.d_le_down{
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 0;
+}
+
+.d_le_up img{
+    float: left;
+}
+.up_others{
+    top:20px;
+    position: relative;
+    margin-left: 300px;
+}
+.sd_btn{
+    margin-left: 300px;
+}
+.sd{
+    margin-left: 0px;
+    margin-top: 30px;
+}
+.sd_btn_a,.sd_btn_a:hover{
+    text-decoration: none;
+}
+.btn-cart{
+    margin-top: 5px;
+    /*margin-left: 250px;*/
+    /*display: inline-block;*/
+    width: 150px;
+    height:38px;
+    background: #CD4F39;
+    border-radius: 0.4em;
+    margin-left: 100px;
+    text-align: center;
+}
+.btn-cart-p{
+    color: white;
+    font-family: "Microsoft YaHei UI";
+    font-size: 18px;
+    padding-top: 0.35em;
+}
+.d_le_down h3{
+    font-family: "Microsoft YaHei UI";
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 30px;
+}
+.d_le_down p{
+    line-height: 2em;
+    text-indent: 2em;
+    /*word-spacing:80px;*/
+    letter-spacing: 3px;
+    white-space:pre-line;
+}
+
+.col-xs-3 h3{
+    font-family: "Microsoft YaHei UI";
+    font-size: 21px;
+    font-weight: bold;
+    /*margin-left: 10px;*/
+}
+.liulan{
+    font-family: "Microsoft YaHei UI";
+    font-weight: normal;
+    font-size:13px;
+}
+.dd_other{
+    font-size: 11px;
+    color: #696969;
+    text-align: center;
+}
+footer{
+
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    clear: both;
+    background-color: #363636;
+    text-align: center;
+    color:#B5B5B5;
+}
+footer a{
+    color: #B5B5B5;
+    text-decoration: none;
+}
+footer a:hover{
+    color:white;
+    text-decoration: none;
+}
+.nav-tabs{
+    color: #363636;
+}
+.nav-tabs a{
+    color: #363636;
+}
+.nav-tabs a:hover{
+    color: black;
+}

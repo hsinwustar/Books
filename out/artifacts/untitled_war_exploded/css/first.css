@@ -1,0 +1,254 @@
+/**{*/
+/*margin:0;*/
+/*padding:0;*/
+/*}*/
+
+#d2{
+    width: 100%;
+    margin:0;
+    padding: 0;
+    background: rgba(54,54,54,0);
+    height: 60px;
+    color:#B5B5B5;
+    position: fixed;
+    z-index: 50;
+    text-align: center;
+    line-height: 40px;
+}
+
+.d2_lb{
+    font-family: 宋体;
+    font-size: 13px;
+    display: block;
+    color:#B5B5B5;
+}
+.d2_a{
+    color: #B5B5B5;
+    text-decoration: none;
+
+}
+.d2_a:hover{
+    color: white;
+    text-decoration: none;
+}
+.d2_a:visited{
+    color: #B5B5B5;
+    text-decoration: none;
+}
+.d2_a:active{
+    color: black;
+    text-decoration: none;
+}
+.d3{
+    position: absolute;
+    top: 580px;
+    left: 50%;
+    margin-left: -500px;
+    width: 960px;
+}
+.d3_left{
+    width: 480px;
+    float: left;
+    margin-right: 50px;
+    color: #fff;
+    font-size: 20px;
+    font-family:"Microsoft YaHei UI";
+    font-weight: lighter;
+}
+.d3_right{
+    width: 492px;
+    display: table;
+    float: right;
+    margin-right: -62px;
+}
+.d3_right_photo{
+    display: table-cell;
+    vertical-align: top;
+}
+.d3_right_others{
+    margin-left: 15px;
+    text-align: left;
+}
+.d3_right_others a{
+    text-decoration: none;
+}
+.d3_right_others a:hover{
+    text-decoration: none;
+}
+.d3_right_others_title{
+    font-size: 31px;
+    line-height: 43px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 8px;
+}
+.d3_right_others_author{
+    color: hsla(0,0%,100%,0.8);
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 15px;
+}
+.d3_right_others_ot{
+    display: block;
+}
+.d3_right_others_price{
+    float: right;
+    font-size: 30px;
+    font-family: Songti SC;
+    font-weight: 600;
+    color: #ffd581;
+}
+
+.btn-cart{
+    display: inline-block;
+    width: 150px;
+    height:38px;
+    background: #CD4F39;
+    border-radius: 0.4em;
+    margin-left: 35px;
+    text-align: center;
+}
+.btn-cart-p{
+    color: white;
+    font-family: "Microsoft YaHei UI";
+    font-size: 18px;
+    padding-top: 0.35em;
+}
+
+ul.nav-tabs{
+    width: 300px;
+    height: 700px;
+    margin-top: 250px;
+    border-radius: 2px;
+    font-family: "Microsoft YaHei UI";
+    font-size: 23px;
+}
+ul.nav-tabs li{
+    /*margin-left: 150px;*/
+    margin-bottom: 30px;
+    padding-left:2em;
+}
+/*ul.nav-tabs li:first-child{*/
+    /*!*border-top: none;*!*/
+    /*color: #363636;*/
+/*}*/
+ul.nav-tabs li a{
+    margin: 0;
+    padding: 8px 16px;
+    border-radius: 0;
+    color: #B5B5B5;
+}
+ul.nav-tabs li a:hover{
+    color: #363636;
+}
+
+ul.nav-tabs.affix{
+    top: 60px; /* Set the top position of pinned element */
+}
+
+.nav-tabs>li.active>a,
+/*.nav-tabs>li.active>a:hover*/
+.nav-tabs>li.active>a:focus{
+    /*color:#555;*/
+    cursor:default;
+    border: none;
+}
+.col-xs-9 img,.col-xs-9 img{
+    width: 800px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 150px;
+}
+.col-xs-9 table{
+    margin-left: 120px;
+    width: 800px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-indent: 2em;
+}
+.col-xs-9 table th{
+    width: 100px;
+}
+.col-xs-9 table label{
+    font-family: "Microsoft YaHei UI";
+    font-weight: lighter;
+    text-indent: 0em;
+}
+.col-xs-9 p{
+    margin-left: 150px;
+    width: 800px;
+    text-indent: 2em;
+    font-family: "Microsoft YaHei UI";
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.col-xs-9 h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 145px;
+}
+.col-xs-9 hr{
+    width: 800px;
+    margin-left: 145px;
+    border: #B5B5B5 solid 1px;
+}
+#d4_content:target,#d4_specification:target,#d4_shortreview:target{
+    padding-top: 80px;
+}
+#d4_shortreview{
+    margin-bottom: 150px;
+}
+.d4_sv_all{
+    width: 800px;
+    margin-left: 150px;
+    height:150px;
+}
+.d4_sv_img{
+    float: left;
+    width: 50px;
+    height:150px;
+}
+.d4_sv_img img{
+    margin-left: 10px;
+    margin-top:10px;
+    border-radius: 50%;
+}
+.d4_sv_content{
+    position: relative;
+    margin-left: 30px;
+}
+.d4_sv_ct_uid {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: "Microsoft YaHei UI";
+    font-size: 17px;
+    color: #363636;
+}
+.d4_sv_ct_txt{
+    margin-top:2px;
+    margin-left: 10px;
+    width: 700px;
+    font-family: "Microsoft YaHei UI";
+    font-weight: lighter;
+    font-size: 15px;
+    color: #363636;
+}
+footer{
+    /*margin-top:0;*/
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    clear: both;
+    background-color: #363636;
+    text-align: center;
+    color:#B5B5B5;
+}
+footer a{
+    color: #B5B5B5;
+    text-decoration: none;
+}
+footer a:hover{
+    color:white;
+    text-decoration: none;
+}
